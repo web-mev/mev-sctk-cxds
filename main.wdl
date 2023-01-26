@@ -35,7 +35,7 @@ task runCxds {
     }
 
     runtime {
-        docker: "hsphqbrc/mev-sctk-cxds"
+        docker: "ghcr.io/web-mev/mev-sctk-cxds"
         cpu: 2
         memory: "16 G"
         disks: "local-disk " + disk_size + " HDD"
